@@ -8,6 +8,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-color: #1f1d1e;
     box-shadow: 0 -8px 15px 0 rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 .logo{
@@ -90,4 +91,75 @@ body{
     background-color: transparent;
     border: none;
     color: white;
+}
+
+.service{
+    margin-top: 2rem;
+}
+
+.service-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.service-title{
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    margin-bottom: 1.4rem;
+    text-transform: capitalize;
+}
+
+.service-subtitle{
+    letter-spacing: 1px;
+    font-size: .6rem;
+    font-weight: 400;
+    max-width: 18rem;
+    margin-top: -1rem;
+    text-align: center;
+}
+
+.service-options{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.option1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-service{
+    font-size: .8rem;
+    padding: 10px 10px;
+    border-radius: 50%;
+    background: linear-gradient(0.25turn, #ff5a00, #fe8549);
+    object-fit: cover;
+}
+
+.option-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    font-size: .8rem;
+    margin-top: .5rem;
+    letter-spacing: 2px;
+}
+
+.option-p{
+    font-size: .5rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: -1rem;
+    max-width: 15rem;
 }
