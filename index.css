@@ -238,3 +238,97 @@ h5{
     font-weight: 200;
     font-size: 12px;
 }
+
+
+.time-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+.time{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.book-button{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    font-weight: bold;
+     border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-top: -5px;
+}
+
+.book-button:hover, .book-button:active{
+    color:#ff5a00 ;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.p-title{
+    font-size: 1rem;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 1.3rem;
+    
+}
+
+.reservation-container{
+    margin-top: 3rem;
+    position: relative;
+    min-height: 1000px;
+}
+
+.title-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.private{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: .8rem;
+    margin-right: .5rem;
+}
+
+.open{
+    font-size: .8rem;
+    padding: 5px 15px;
+    font-weight: 400;
+}
+
+.extend{
+    position: absolute;
+    top: 23rem;
+    left: 55%;
+    background: linear-gradient(0.25turn, #ff5a00, #fe8549);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px;
+    
+}
