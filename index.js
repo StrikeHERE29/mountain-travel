@@ -47,16 +47,5 @@ let items = document.querySelectorAll('.slider .item');
         });
     });
 
-    document.addEventListener('DOMContentLoaded', function () {
-        const menuContent = document.querySelector('.menu-content');
-        const dropdown = document.querySelector('.dropdown');
-      
-        menuContent.addEventListener('mouseenter', function () {
-          dropdown.style.display = 'block';
-        });
-      
-        menuContent.addEventListener('mouseleave', function () {
-          dropdown.style.display = 'none';
-        });
-      });
+    
       
