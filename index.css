@@ -11,6 +11,66 @@ body{
     color: white;
 }
 
+.img-container{
+ background-image: url("mountain-bg.jpeg");
+ max-width: 100vw;
+ min-height: 17rem;
+ background-size: cover;
+ background-position: center;
+ animation: animate 15s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 36% 42%; 
+        background-size: 200%;
+    }
+
+    20%{
+        background-position: 30% 35%;
+        background-size: 200%;
+    }
+    20.0001%{
+        background-position: 60% 85%;
+        background-size: 400%;
+    }
+    40%{
+        background-position: 49% 81%;
+        background-size: 400%;
+    }
+    40.0001% { /* -- View 3 -- */
+        background-position: 80% 42%;
+        background-size: 300%;
+      }
+      
+      60% {
+        background-position: 84% 33%;
+        background-size: 300%;
+      }
+      
+      60.0001% { /* -- View 4 -- */
+        background-position: 0% 0%;
+        background-size: 300%;
+      }
+      
+      80% {
+        background-position: 15% 4%;
+        background-size: 300%;
+      }
+      
+      80.0001% { /* -- View 5 -- */
+        background-position: 80% 10%;
+        background-size: 300%;
+      }
+      
+      100% {
+        background-position: 72% 14%;
+        background-size: 300%;
+      }
+}
+
+
+
 .logo{
     font-family: "Great Vibes", cursive;
     font-size: .7rem;
@@ -292,7 +352,7 @@ h2{
 .reservation-container{
     margin-top: 3rem;
     position: relative;
-    min-height: 1000px;
+    
 }
 
 .title-buttons{
@@ -321,7 +381,7 @@ h2{
 
 .extend{
     position: absolute;
-    top: 23rem;
+    top: 22.5rem;
     left: 55%;
     background: linear-gradient(0.25turn, #ff5a00, #fe8549);
     color: white;
