@@ -34,3 +34,15 @@ let items = document.querySelectorAll('.slider .item');
         active = active - 1 >= 0 ? active - 1 : active;
         loadShow();
     }
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const container = document.querySelector('.inner-container');
+        const reviewPersons = Array.from(container.children);
+
+        // Duplicate the contents of the container
+        reviewPersons.forEach(person => {
+            const clone = person.cloneNode(true);
+            container.appendChild(clone);
+        });
+    });
